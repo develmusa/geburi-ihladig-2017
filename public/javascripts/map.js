@@ -1,4 +1,5 @@
 var map;
+
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
         zoom: 18,
@@ -41,34 +42,23 @@ function initMap() {
         }
     ];
 
-
-
-    var contentStringSchuur = '<div id="content">'+
-        '<div id="siteNotice">'+
-        '</div>'+
-        '<p><b>Schüür</b><br>Meienbergstrasse 7<br> 8645 Jona</p>'+
-        '</div>'+
+    var contentStringSchuur = '<div id="content">' +
+        '<div id="siteNotice">' +
+        '</div>' +
+        '<p><b>Schüür</b><br>Meienbergstrasse 7<br> 8645 Jona</p>' +
+        '</div>' +
         '</div>';
-
 
     var infowindowSchuur = new google.maps.InfoWindow({
         content: contentStringSchuur
     });
 
-
-
-
-    features.forEach(function(feature) {
-
+    features.forEach(function (feature) {
         var marker = new google.maps.Marker({
             position: feature.position,
             icon: icons[feature.type].icon,
             map: map
         });
-            infowindowSchuur.open(map, marker);
+        infowindowSchuur.open(map, marker);
     });
-
-
-
-
 }

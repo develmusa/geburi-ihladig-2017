@@ -100,7 +100,6 @@ body {
 
 }
 
-
 #container {
     display: flex;
     flex-flow: row wrap;
@@ -108,8 +107,7 @@ body {
     border: solid 1vh black;
 }
 
-#test
-{
+#test {
     align-items: center;
     background: red;
     width: initial;
@@ -145,20 +143,20 @@ body {
 }
 
 #bild div.border {
-opacity: 0.8;
-background-color:rgba(255,255,255,0.5);
-color: #000;
-margin: 2vh;
-padding: 2vh;
-font-size: 5vh;
-letter-spacing: 1.2vh;
-width: initial;
-border: solid 0.5vh black;
-letter-spacing: 0.8vh;
-text-transform: uppercase;
-font: 3vh "Lato", sans-serif;
-font-weight: bold;
-color: #111;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000;
+    margin: 2vh;
+    padding: 2vh;
+    font-size: 5vh;
+    letter-spacing: 1.2vh;
+    width: initial;
+    border: solid 0.5vh black;
+    letter-spacing: 0.8vh;
+    text-transform: uppercase;
+    font: 3vh "Lato", sans-serif;
+    font-weight: bold;
+    color: #111;
 }
 
 #caption {
@@ -183,18 +181,16 @@ color: #111;
     border-bottom: solid 0.5vh black;
 }
 
-
-
-#info  h1 {
+#info h1 {
     font: 3vh "Lato", sans-serif;
     font-weight: bold;
 }
 
-#info  > p {
+#info > p {
     font: 3vh "Lato", sans-serif;
 }
 
-#info  b {
+#info b {
     color: ghostwhite;
 }
 
@@ -215,11 +211,6 @@ color: #111;
     background-color: grey;
     height: 100vh;
 }
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
@@ -319,9 +310,7 @@ color: #111;
         justify-content: space-around;
         align-items: stretch;
 
-
     }
-
 
     #info {
         padding: 0;
@@ -336,8 +325,7 @@ color: #111;
         width: 100%;
     }
 
-
-    #info  h1 {
+    #info h1 {
         font: 3vw "Lato", sans-serif;
         font-weight: bold;
         padding: 0vw 5vw;
@@ -345,22 +333,18 @@ color: #111;
 
     }
 
-    #info  > p {
+    #info > p {
         font: 1.5vw "Lato", sans-serif;
         font-weight: bold;
         padding: 0vw 5vw;
     }
 
-
-
-
-
 }
 
 @media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
 
@@ -375,8 +359,9 @@ color: #111;
     *:before,
     *:after {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster:
-                                   http://www.sanbeiji.com/archives/953 */
+        color: #000 !important;
+        /* Black prints faster:
+                                          http://www.sanbeiji.com/archives/953 */
         box-shadow: none !important;
         text-shadow: none !important;
     }
@@ -398,7 +383,6 @@ color: #111;
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-
     a[href^="#"]:after,
     a[href^="javascript:"]:after {
         content: "";
@@ -407,6 +391,7 @@ color: #111;
     pre {
         white-space: pre-wrap !important;
     }
+
     pre,
     blockquote {
         border: 1px solid #999;
@@ -417,7 +402,6 @@ color: #111;
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-
     thead {
         display: table-header-group;
     }
