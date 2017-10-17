@@ -178,6 +178,11 @@ body {
     width: 100%;
     padding: 10%;
     border-bottom: solid 0.5vh black;
+    background-image: url("../images/image4.png");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #info h1 {
