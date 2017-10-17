@@ -24,10 +24,10 @@ function initMap() {
     var iconBase = 'img/';
     var icons = {
         parking: {
-            icon: './img/car.png'
+            icon: './images/car.png'
         },
         schuur: {
-            icon: './img/bar.png'
+            icon: './images/bar.png'
         }
     };
 

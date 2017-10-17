@@ -174,7 +174,7 @@ color: #111;
 #info {
     background: #adaa83;
     color: black;
-    text-align: justify;
+    text-align: center;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -188,19 +188,18 @@ color: #111;
 #info  h1 {
     font: 3vh "Lato", sans-serif;
     font-weight: bold;
-    text-align: center;
 }
 
 #info  > p {
     font: 3vh "Lato", sans-serif;
 }
 
-#info  > p:last-child {
-    text-align: center;
-}
-
 #info  b {
     color: ghostwhite;
+}
+
+#infotext {
+    text-align: justify;
 }
 
 #map {
@@ -327,8 +326,6 @@ color: #111;
     #info {
         padding: 0;
         width: 100%;
-        direction:rtl;
-        text-align:justify;
         border-right: solid 0.5vh black;
         border-bottom: 0;
 
