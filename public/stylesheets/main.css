@@ -104,7 +104,6 @@ body {
     display: flex;
     flex-flow: row wrap;
 
-    border: solid 1vh black;
 }
 
 #test {
@@ -303,6 +302,10 @@ body {
    ========================================================================== */
 
 @media only screen and (min-width: 35em) {
+    #container {
+        border: solid 1vh black;
+    }
+
     .inner-container {
         width: 100vw;
         height: 100vh;
